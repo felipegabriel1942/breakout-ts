@@ -1,0 +1,38 @@
+{
+    "ball": {
+        "speed": {
+            "x": 2,
+            "y": -2
+        },
+        "radius": 10,
+        "color": "#0095DD"
+    },
+    "paddle": {
+        "height": 10,
+        "width": 75,
+        "speed": {
+            "x": 7,
+            "y": 0
+        }
+    },
+    "brick": {
+        "position": {
+            "x": 0,
+            "y": 0
+        },
+        "width": 75,
+        "height": 20,
+        "padding": 10,
+        "offsetTop": 30,
+        "offsetLeft": 30
+    },
+    "life": {
+        "points": 3
+    },
+    "message": {
+        "win": "YOU WIN, CONGRATULATIONS!",
+        "lose": "GAME OVER"
+    },
+    "brickRowCount": 3,
+    "brickColumnCount": 5
+}
